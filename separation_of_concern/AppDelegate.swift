@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  separation_of_concern
 //
-//  Created by Brian Voong on 6/4/18.
-//  Copyright © 2018 Brian Voong. All rights reserved.
+//  Created by Nitin Srivastav on 28/03/23.
+//  Copyright © 2023 Nitish Srivastava. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: BadCodeController())
         return true
     }
 

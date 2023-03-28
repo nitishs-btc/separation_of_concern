@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C7A497E920C6625900EA709D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497E820C6625900EA709D /* AppDelegate.swift */; };
-		C7A497EB20C6625900EA709D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497EA20C6625900EA709D /* ViewController.swift */; };
+		C7A497EB20C6625900EA709D /* BadCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497EA20C6625900EA709D /* BadCodeController.swift */; };
 		C7A497EE20C6625900EA709D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A497EC20C6625900EA709D /* Main.storyboard */; };
 		C7A497F020C6625A00EA709D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A497EF20C6625A00EA709D /* Assets.xcassets */; };
 		C7A497F320C6625A00EA709D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A497F120C6625A00EA709D /* LaunchScreen.storyboard */; };
+		C7A497FB20C6635F00EA709D /* HomeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497FA20C6635F00EA709D /* HomeFeed.swift */; };
+		C7A497FD20C6658700EA709D /* SeparatedConcernController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497FC20C6658700EA709D /* SeparatedConcernController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7A497E520C6625900EA709D /* separation_of_concern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = separation_of_concern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A497E820C6625900EA709D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7A497EA20C6625900EA709D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7A497EA20C6625900EA709D /* BadCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadCodeController.swift; sourceTree = "<group>"; };
 		C7A497ED20C6625900EA709D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A497EF20C6625A00EA709D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A497F220C6625A00EA709D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A497F420C6625A00EA709D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A497FA20C6635F00EA709D /* HomeFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeed.swift; sourceTree = "<group>"; };
+		C7A497FC20C6658700EA709D /* SeparatedConcernController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatedConcernController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C7A497E820C6625900EA709D /* AppDelegate.swift */,
-				C7A497EA20C6625900EA709D /* ViewController.swift */,
+				C7A497EA20C6625900EA709D /* BadCodeController.swift */,
+				C7A497FC20C6658700EA709D /* SeparatedConcernController.swift */,
 				C7A497EC20C6625900EA709D /* Main.storyboard */,
 				C7A497EF20C6625A00EA709D /* Assets.xcassets */,
 				C7A497F120C6625A00EA709D /* LaunchScreen.storyboard */,
 				C7A497F420C6625A00EA709D /* Info.plist */,
+				C7A497FA20C6635F00EA709D /* HomeFeed.swift */,
 			);
 			path = separation_of_concern;
 			sourceTree = "<group>";
@@ -92,7 +98,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Brian Voong";
+				ORGANIZATIONNAME = "Nitish Srivastava";
 				TargetAttributes = {
 					C7A497E420C6625900EA709D = {
 						CreatedOnToolsVersion = 9.3;
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A497EB20C6625900EA709D /* ViewController.swift in Sources */,
+				C7A497FD20C6658700EA709D /* SeparatedConcernController.swift in Sources */,
+				C7A497FB20C6635F00EA709D /* HomeFeed.swift in Sources */,
+				C7A497EB20C6625900EA709D /* BadCodeController.swift in Sources */,
 				C7A497E920C6625900EA709D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.separation-of-concern";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nitish.separation-of-concern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.separation-of-concern";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nitish.separation-of-concern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
