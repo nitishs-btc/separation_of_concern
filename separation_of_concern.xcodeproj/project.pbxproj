@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6DCF3E29D413FA00DC31BC /* ProtocolSeparationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6DCF3D29D413FA00DC31BC /* ProtocolSeparationPolicy.swift */; };
 		C7A497E920C6625900EA709D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497E820C6625900EA709D /* AppDelegate.swift */; };
 		C7A497EB20C6625900EA709D /* BadCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A497EA20C6625900EA709D /* BadCodeController.swift */; };
 		C7A497EE20C6625900EA709D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A497EC20C6625900EA709D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A6DCF3D29D413FA00DC31BC /* ProtocolSeparationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSeparationPolicy.swift; sourceTree = "<group>"; };
 		C7A497E520C6625900EA709D /* separation_of_concern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = separation_of_concern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A497E820C6625900EA709D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7A497EA20C6625900EA709D /* BadCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadCodeController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C7A497F120C6625A00EA709D /* LaunchScreen.storyboard */,
 				C7A497F420C6625A00EA709D /* Info.plist */,
 				C7A497FA20C6635F00EA709D /* HomeFeed.swift */,
+				4A6DCF3D29D413FA00DC31BC /* ProtocolSeparationPolicy.swift */,
 			);
 			path = separation_of_concern;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A497FD20C6658700EA709D /* SeparatedConcernController.swift in Sources */,
+				4A6DCF3E29D413FA00DC31BC /* ProtocolSeparationPolicy.swift in Sources */,
 				C7A497FB20C6635F00EA709D /* HomeFeed.swift in Sources */,
 				C7A497EB20C6625900EA709D /* BadCodeController.swift in Sources */,
 				C7A497E920C6625900EA709D /* AppDelegate.swift in Sources */,
